@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.myapplication.cache_pool.CachePoolActivity
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
@@ -11,7 +12,9 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         btn1.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
-            
+        }
+        btn2.setOnClickListener {
+            startActivity(Intent(this,CachePoolActivity::class.java))
         }
     }
 }

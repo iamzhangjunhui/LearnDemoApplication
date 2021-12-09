@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cache_pool.CachePoolActivity"
+    android:orientation="vertical">
+<Button
+    android:id="@+id/btn1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="类Handler Massage使用单链表实现对象池（对象之间无差异）"
+    android:textAllCaps="false"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="类Glide使用map实现对象池（有条件的复用，对象之间有差异的）"
+        android:textAllCaps="false"/>
+</LinearLayout>
