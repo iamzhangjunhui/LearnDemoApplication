@@ -18,6 +18,6 @@
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="类Glide使用map实现对象池（有条件的复用，对象之间有差异的）"
+        android:text="类Glide使用LRU算法（LruCache）和TreeMap实现对象池（有条件的复用，对象之间有差异的）"
         android:textAllCaps="false" />
 </LinearLayout>
