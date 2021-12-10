@@ -1,14 +1,11 @@
-package com.example.myapplication
+package com.example.myapplication.cache_pool
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
-import com.example.myapplication.cache_pool.CacheLink
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.activity_cache_link.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
 class CacheLinkActivity : AppCompatActivity() {
