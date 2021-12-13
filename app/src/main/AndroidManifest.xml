@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cache_pool.CacheMapActivity"></activity>
+        <activity android:name=".gson_fromJson.DealGsonFromJsonActivity"></activity>
+        <activity android:name=".cache_pool.CacheMapActivity" />
         <activity android:name=".cache_pool.CacheLinkActivity" />
         <activity android:name=".cache_pool.CachePoolActivity" />
         <activity android:name=".MainActivity" />

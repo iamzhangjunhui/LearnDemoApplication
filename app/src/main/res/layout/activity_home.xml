@@ -20,6 +20,12 @@
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:text="自定义对象池"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="使用gson的建造者模式来解决很频繁调用gson.fromJson()方法，内部使用反射创建对象导致内存抖动问题"/>
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

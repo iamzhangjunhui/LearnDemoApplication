@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.myapplication.cache_pool.CachePoolActivity
+import com.example.myapplication.gson_fromJson.DealGsonFromJsonActivity
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
@@ -15,6 +16,9 @@ class HomeActivity : AppCompatActivity() {
         }
         btn2.setOnClickListener {
             startActivity(Intent(this,CachePoolActivity::class.java))
+        }
+        btn3.setOnClickListener {
+            startActivity(Intent(this,DealGsonFromJsonActivity::class.java))
         }
     }
 }
