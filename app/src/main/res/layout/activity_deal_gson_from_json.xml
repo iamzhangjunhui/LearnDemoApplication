@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gson_fromJson.DealGsonFromJsonActivity">
+    tools:context=".cache_pool.gson_fromJson.DealGsonFromJsonActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

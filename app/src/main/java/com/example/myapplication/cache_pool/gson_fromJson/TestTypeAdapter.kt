@@ -1,6 +1,5 @@
-package com.example.myapplication.gson_fromJson
+package com.example.myapplication.cache_pool.gson_fromJson
 
-import com.example.myapplication.cache_pool.CacheLink
 import com.google.gson.TypeAdapter
 import com.google.gson.stream.JsonReader
 import com.google.gson.stream.JsonWriter

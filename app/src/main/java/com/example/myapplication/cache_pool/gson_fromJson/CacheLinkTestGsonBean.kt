@@ -1,7 +1,6 @@
-package com.example.myapplication.gson_fromJson
+package com.example.myapplication.cache_pool.gson_fromJson
 
 import android.util.Log
-import android.widget.Toast
 
 class CacheLinkTestGsonBean {
     var name:String=""

@@ -1,11 +1,10 @@
-package com.example.myapplication.gson_fromJson
+package com.example.myapplication.cache_pool.gson_fromJson
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import com.example.myapplication.R
-import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 
 class DealGsonFromJsonActivity : AppCompatActivity() {

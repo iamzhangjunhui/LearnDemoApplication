@@ -4,7 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.myapplication.R
+import com.example.myapplication.cache_pool.gson_fromJson.DealGsonFromJsonActivity
 import kotlinx.android.synthetic.main.activity_cache_pool.*
+import kotlinx.android.synthetic.main.activity_cache_pool.btn1
+import kotlinx.android.synthetic.main.activity_cache_pool.btn2
+import kotlinx.android.synthetic.main.activity_home.*
 
 class CachePoolActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +19,9 @@ class CachePoolActivity : AppCompatActivity() {
         }
         btn2.setOnClickListener {
             startActivity(Intent(this,CacheMapActivity::class.java))
+        }
+        btn3.setOnClickListener {
+            startActivity(Intent(this, DealGsonFromJsonActivity::class.java))
         }
     }
 }
