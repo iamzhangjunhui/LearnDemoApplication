@@ -20,6 +20,12 @@
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:text="内存抖动，自定义对象池"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启多线程（继承Thread；实现Runnable接口；实现Callable接口）之实现Callable接口"
+            android:textAllCaps="false"/>
 
     </LinearLayout>
 
